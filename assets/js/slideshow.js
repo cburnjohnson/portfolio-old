@@ -3,9 +3,10 @@ var images = [];
 var time = 4000;
 
 // Image List
-images[0] = 'images/CarInsurance_Home.PNG';
-images[1] = 'images/CarInsurance_Quote.PNG';
-images[2] = 'images/CarInsurance_Admin.PNG';
+images[0] = 'images/cloud-homepage.png';
+images[1] = 'images/cloud-login.png';
+images[2] = 'images/cloud-nopics.png';
+images[3] = 'images/cloud-pics.png';
 
 // Changes Image
 
