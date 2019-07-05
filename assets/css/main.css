@@ -169,7 +169,7 @@ clear: both;
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.5;
 	}
 
 	a {
@@ -2617,7 +2617,7 @@ clear: both;
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 1rem 0;
 			width: 100%;
 		}
 
@@ -2631,7 +2631,7 @@ clear: both;
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 1rem 0;
 			width: 100%;
 		}
 
