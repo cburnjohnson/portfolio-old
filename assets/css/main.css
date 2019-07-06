@@ -2617,7 +2617,7 @@ clear: both;
 
 		.image.fit {
 			display: block;
-			margin: 1rem 0;
+			margin: 0;
 			width: 100%;
 		}
 
@@ -2631,7 +2631,7 @@ clear: both;
 
 		.image.main {
 			display: block;
-			margin: 1rem 0;
+			margin: 0;
 			width: 100%;
 		}
 
@@ -2646,11 +2646,11 @@ clear: both;
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
-				margin: 2rem 0;
+				margin: 0;
 			}
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 0;
 			}
 
 		}
@@ -4672,8 +4672,9 @@ clear: both;
 	}
 
 .tech-used {
-	margin: 0;
+	margin: 0 0 1rem 0;
 	padding: 0;
 	color: #999;
 	font-size: .75em;
+	font-style: italic;
 }
