@@ -4671,3 +4671,9 @@ clear: both;
 
 	}
 
+.tech-used {
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-size: .75em;
+}
