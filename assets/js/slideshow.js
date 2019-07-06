@@ -3,7 +3,7 @@ var images = [];
 var time = 3000;
 
 // Image List
-images[0] = 'images/cloud-homepage.png';
+images[0] = 'images/Optimized-cloud-homepage.png';
 images[1] = 'images/cloud-login.png';
 images[2] = 'images/cloud-nopics.png';
 images[3] = 'images/cloud-pics.png';
