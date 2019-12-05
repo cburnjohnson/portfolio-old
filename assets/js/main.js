@@ -301,7 +301,7 @@ var iFour = 0;
 var imagesFour = [];
 
 imagesFour[0] = 'images/github-finder/homepage.png';
-imagesFour[1] = 'images/github-finder/searched-users.png';
+imagesFour[1] = 'images/github-finder/searched-users.jpg';
 imagesFour[2] = 'images/github-finder/user-info.png';
 
 function changeImgFour() {
