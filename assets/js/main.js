@@ -278,9 +278,9 @@ function changeImgSecond() {
 var iThree = 0;
 var imagesThree = [];
 
-imagesThree[0] = 'images/phone-book/homepage.png';
-imagesThree[1] = 'images/phone-book/login.png';
-imagesThree[2] = 'images/phone-book/register.png';
+imagesThree[0] = 'images/phone-book/homepage.jpg';
+imagesThree[1] = 'images/phone-book/login.jpg';
+imagesThree[2] = 'images/phone-book/register.jpg';
 
 function changeImgThree() {
     if (document.slidethree) {
