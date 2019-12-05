@@ -286,7 +286,7 @@ function changeImgThree() {
     if (document.slidethree) {
         document.slidethree.src = imagesThree[iThree];
 
-        if (iTwo < imagesThree.length - 1) {
+        if (iThree < imagesThree.length - 1) {
             iThree++;
         } else {
             iThree = 0;
@@ -296,6 +296,29 @@ function changeImgThree() {
     }
 }
 
+// slideshow 4
+var iFour = 0;
+var imagesFour = [];
+
+imagesFour[0] = 'images/github-finder/homepage.png';
+imagesFour[1] = 'images/github-finder/searched-users.png';
+imagesFour[2] = 'images/github-finder/user-info.png';
+
+function changeImgFour() {
+    if (document.slideFour) {
+        document.slideFour.src = imagesFour[iFour];
+
+        if (iFour < imagesFour.length - 1) {
+            iFour++;
+        } else {
+            iFour = 0;
+        }
+
+        setTimeout('changeImgFour()', time);
+    }
+}
+
 window.onload = changeImgThree();
+window.onload = changeImgFour();
 window.onload = changeImg();
 window.onload = changeImgSecond();
