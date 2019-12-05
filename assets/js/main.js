@@ -275,5 +275,27 @@ function changeImgSecond() {
     }
 }
 
+var iThree = 0;
+var imagesThree = [];
+
+imagesThree[0] = 'images/contact-keeper/homepage.png';
+imagesThree[1] = 'images/contact-keeper/login.png';
+imagesThree[2] = 'images/contact-keeper/register.png';
+
+function changeImgThree() {
+    if (document.slidethree) {
+        document.slidethree.src = imagesThree[iThree];
+
+        if (iTwo < imagesThree.length - 1) {
+            iThree++;
+        } else {
+            iThree = 0;
+        }
+
+        setTimeout('changeImgThree()', time);
+    }
+}
+
+window.onload = changeImgThree();
 window.onload = changeImg();
 window.onload = changeImgSecond();
