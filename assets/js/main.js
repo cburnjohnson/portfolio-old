@@ -278,9 +278,9 @@ function changeImgSecond() {
 var iThree = 0;
 var imagesThree = [];
 
-imagesThree[0] = 'images/contact-keeper/homepage.png';
-imagesThree[1] = 'images/contact-keeper/login.png';
-imagesThree[2] = 'images/contact-keeper/register.png';
+imagesThree[0] = 'images/phone-book/homepage.png';
+imagesThree[1] = 'images/phone-book/login.png';
+imagesThree[2] = 'images/phone-book/register.png';
 
 function changeImgThree() {
     if (document.slidethree) {
@@ -300,9 +300,8 @@ function changeImgThree() {
 var iFour = 0;
 var imagesFour = [];
 
-imagesFour[0] = 'images/github-finder/homepage.png';
-imagesFour[1] = 'images/github-finder/searched-users.jpg';
-imagesFour[2] = 'images/github-finder/user-info.png';
+imagesFour[0] = 'images/lol-summoners/homepage.png';
+imagesFour[1] = 'images/lol-summoners/summoner.jpg';
 
 function changeImgFour() {
     if (document.slideFour) {
@@ -318,7 +317,31 @@ function changeImgFour() {
     }
 }
 
+// slideshow 5
+var iFive = 0;
+var imagesFive = [];
+
+imagesFive[0] = 'images/it-work-orders/homepage.png';
+imagesFive[1] = 'images/it-work-orders/add-log.png';
+imagesFive[2] = 'images/it-work-orders/add-tech.png';
+imagesFive[3] = 'images/it-work-orders/tech-list.png';
+
+function changeImgFive() {
+    if (document.slideFive) {
+        document.slideFive.src = imagesFive[iFive];
+
+        if (iFive < imagesFive.length - 1) {
+            iFive++;
+        } else {
+            iFive = 0;
+        }
+
+        setTimeout('changeImgFive()', time);
+    }
+}
+
 window.onload = changeImgThree();
 window.onload = changeImgFour();
+window.onload = changeImgFive();
 window.onload = changeImg();
 window.onload = changeImgSecond();
