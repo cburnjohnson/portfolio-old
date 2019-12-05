@@ -3710,7 +3710,7 @@ clear: both;
 				}
 
 					#nav ul.links li a:hover {
-						color: inherit !important;
+						color: #18bfef;
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
