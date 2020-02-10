@@ -2802,7 +2802,8 @@ clear: both;
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+        padding-left: 0;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
 
 		ul.icons li {
