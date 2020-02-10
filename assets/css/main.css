@@ -3608,7 +3608,7 @@ clear: both;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.25);
+		background: rgba(255, 255, 255, 0.50);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3641,7 +3641,7 @@ clear: both;
 		}
 
 		#nav a {
-			color: #000000;
+			color: #000;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3711,7 +3711,7 @@ clear: both;
 
 					#nav ul.links li a:hover {
 						color: #18bfef;
-						background-color: rgba(255, 255, 255, 0.1);
+						background-color: rgba(255, 255, 255, 0.50);
 					}
 
 				#nav ul.links li.active {
@@ -3719,7 +3719,7 @@ clear: both;
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #18bfef ;
 					}
 
 						#nav ul.links li.active a:hover {
